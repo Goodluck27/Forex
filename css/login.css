@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  .container {
+    height: 100vh;
+    background-image: url(/images/mentorship\ image\ 2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 350px;
+    background-color: rgba(0, 255, 255, 0.075);
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px;
+  }
+  
+  form h3 {
+    text-align: center;
+    padding: 30px;
+    font-size: 28px;
+    position: relative;
+    top: 10px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+  }
+  
+  input,
+  button {
+    padding: 10px;
+    margin: 5px 40px;
+    border-radius: 20px;
+  }
+  
+  input {
+    background: none;
+    border: 1px solid; /* Corrected border property */
+  }
+  
+  input:hover {
+    background-color: rgb(2, 31, 21);
+    color: white;
+  }
+  
+  form i {
+    position: relative;
+    left: 80%;
+    bottom: 30px;
+    color: white;
+  }
+  
+  form h5 {
+    position: relative;
+    left: 60px;
+    bottom: 18px;
+    font-weight: bold;
+  }
+  
+  .pass {
+    position: relative;
+    left: 240px;
+    bottom: 38px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  form button {
+    position: relative;
+    bottom: 30px;
+    font-weight: bold;
+  }
+  
+  form button:hover {
+    background-color: gray;
+    color: aqua;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 15px;
+  }
+  
+  .register {
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .register a {
+    text-decoration: none;
+  }
+  
+  .register-2 {
+    color: white;
+  }
+  
+  .register-2:hover {
+    color: aqua;
+  }
+  
+  input::placeholder {
+    color: white;
+  }
+  
+  /* Media query */
+  @media (max-width: 768px) {
+    form {
+      width: 80%;
+      height: auto;
+      padding: 20px;
+    }
+  
+    form h3 {
+      font-size: 24px;
+      padding: 20px;
+    }
+  
+    input,
+    button {
+      margin: 5px 20px;
+    }
+  
+    form i {
+      position: static;
+      margin-top: 10px;
+      color: white;
+    }
+  
+    form h5 {
+      position: static;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+  
+    .pass {
+      position: static;
+      margin-top: 10px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+  
+    form button {
+      position: static;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+  
+    .register {
+      position: static;
+      margin-top: 20px;
+      font-weight: bold;
+    }
+  
+    .register-2 {
+      color: white;
+    }
+  
+    .register-2:hover {
+      color: aqua;
+    }
+  }
+  

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Linking Css File -->
+    <link rel="stylesheet" href="css/login.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <h3>Login</h3>
+        <input type="text" placeholder="Username" required />
+        <i class="fa fa-user" aria-hidden="true"></i>
+        <input type="password" placeholder="Password" required />
+        <!-- Changed type to password -->
+        <i class="fa fa-lock" aria-hidden="true"></i>
+        <label>
+          <input type="checkbox" name="checkbox" />
+          <h5>Remember Me</h5>
+          <span class="pass">Forgot Password</span>
+          <!-- Fixed the closing tag -->
+        </label>
+        <button type="submit">Login</button>
+        <!-- Added type="submit" for form submission -->
+        <span class="register"
+          >Don't have an account?<a href="#"
+            ><a href="signup.html"><span class="register-2">Register</span></a></a
+          ></span
+        >
+      </form>
+    </div>
+  </body>
+</html>
